@@ -1,0 +1,265 @@
+<mxfile host="65bd71144e" compressed="false">
+    <diagram id="proposal-map" name="A1 Proposal Stage">
+        <mxGraphModel dx="1646" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="centre1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=22;fontStyle=1;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;CODE LITERACY&lt;br&gt;&lt;b&gt;through Recall&lt;/b&gt;&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="200" width="270" x="665" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="problem1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5D6;strokeColor=#ED7D31;fontSize=17;" value="&lt;b&gt;Problem and purpose&lt;/b&gt;&lt;br&gt;Review decisions rely on intuition" vertex="1">
+                    <mxGeometry height="90" width="310" x="90" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="problem1a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4EC;strokeColor=#F4B183;fontSize=14;" value="Known cards repeat too often" vertex="1">
+                    <mxGeometry height="60" width="210" x="50" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="problem1b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4EC;strokeColor=#F4B183;fontSize=14;" value="Weak cards are noticed too late" vertex="1">
+                    <mxGeometry height="60" width="210" x="280" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="data1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=17;" value="&lt;b&gt;Data&lt;/b&gt;&lt;br&gt;Cards and review state must persist" vertex="1">
+                    <mxGeometry height="90" width="310" x="95" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="data1a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F9ED;strokeColor=#A9D18E;fontSize=14;" value="SQLite stores cards locally" vertex="1">
+                    <mxGeometry height="60" width="210" x="55" y="785" as="geometry"/>
+                </mxCell>
+                <mxCell id="data1b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F9ED;strokeColor=#A9D18E;fontSize=14;" value="Dates represent when a card is due" vertex="1">
+                    <mxGeometry height="60" width="210" x="285" y="785" as="geometry"/>
+                </mxCell>
+                <mxCell id="algorithm1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=17;" value="&lt;b&gt;Algorithm&lt;/b&gt;&lt;br&gt;SM-2 turns a rating into a new interval" vertex="1">
+                    <mxGeometry height="90" width="310" x="645" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="algorithm1a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF5FB;strokeColor=#9DC3E6;fontSize=14;" value="Input: recall quality" vertex="1">
+                    <mxGeometry height="60" width="210" x="540" y="275" as="geometry"/>
+                </mxCell>
+                <mxCell id="algorithm1b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF5FB;strokeColor=#9DC3E6;fontSize=14;" value="Output: next review date" vertex="1">
+                    <mxGeometry height="60" width="210" x="850" y="275" as="geometry"/>
+                </mxCell>
+                <mxCell id="interface1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=17;" value="&lt;b&gt;User interface&lt;/b&gt;&lt;br&gt;Tkinter connects the learner to the data" vertex="1">
+                    <mxGeometry height="90" width="310" x="1190" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="interface1a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EFF7;strokeColor=#B1A0C7;fontSize=14;" value="Show a due card" vertex="1">
+                    <mxGeometry height="60" width="210" x="1110" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="interface1b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EFF7;strokeColor=#B1A0C7;fontSize=14;" value="Reveal and rate the answer" vertex="1">
+                    <mxGeometry height="60" width="210" x="1340" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="practice1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontSize=17;" value="&lt;b&gt;Development practice&lt;/b&gt;&lt;br&gt;Tools make behaviour visible and reversible" vertex="1">
+                    <mxGeometry height="90" width="310" x="1190" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="practice1a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#D6B656;fontSize=14;" value="Debugger traces interval changes" vertex="1">
+                    <mxGeometry height="60" width="210" x="1110" y="785" as="geometry"/>
+                </mxCell>
+                <mxCell id="practice1b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#D6B656;fontSize=14;" value="Git preserves working versions" vertex="1">
+                    <mxGeometry height="60" width="210" x="1340" y="785" as="geometry"/>
+                </mxCell>
+                <mxCell id="learn1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C2185B;fontSize=17;" value="&lt;b&gt;Learning goals&lt;/b&gt;&lt;br&gt;Model time, persist state and translate research into code" vertex="1">
+                    <mxGeometry height="100" width="310" x="645" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="problem1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#ED7D31;fontSize=13;" target="centre1" value="motivates">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="245" y="420"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="centre1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#70AD47;fontSize=13;" target="data1" value="requires">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" edge="1" parent="1" source="centre1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;fontSize=13;" target="algorithm1" value="uses">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" edge="1" parent="1" source="centre1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#8064A2;fontSize=13;" target="interface1" value="is experienced through">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" edge="1" parent="1" source="centre1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#BF9000;fontSize=13;" target="practice1" value="is developed with">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" edge="1" parent="1" source="centre1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C2185B;fontSize=13;" target="learn1" value="builds">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" edge="1" parent="1" source="problem1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#ED7D31;" target="problem1a">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" edge="1" parent="1" source="problem1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#ED7D31;" target="problem1b">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" edge="1" parent="1" source="data1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#70AD47;" target="data1a">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" edge="1" parent="1" source="data1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#70AD47;" target="data1b">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" edge="1" parent="1" source="algorithm1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#5B9BD5;" target="algorithm1a">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" edge="1" parent="1" source="algorithm1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#5B9BD5;" target="algorithm1b">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e13" edge="1" parent="1" source="interface1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;" target="interface1a">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e14" edge="1" parent="1" source="interface1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;" target="interface1b">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e15" edge="1" parent="1" source="practice1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#BF9000;" target="practice1a">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e16" edge="1" parent="1" source="practice1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#BF9000;" target="practice1b">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="prototype-map" name="A2 Prototype Stage">
+        <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="p0"/>
+                <mxCell id="p1" parent="p0"/>
+                <mxCell id="ptitle" value="Recall concept map at the A2 prototype stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=26;fontStyle=1;fontColor=#1F2A63;" vertex="1" parent="p1">
+                    <mxGeometry x="390" y="30" width="820" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pnote" value="The working prototype reveals relationships between events, state, algorithms, persistence and testing." style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=14;fontColor=#59627D;" vertex="1" parent="p1">
+                    <mxGeometry x="390" y="80" width="820" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="pcentre" value="&lt;b&gt;RECALL PROTOTYPE&lt;/b&gt;&lt;br&gt;user action changes persistent scheduling state" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1F2A63;strokeColor=#1F2A63;fontColor=#FFFFFF;fontSize=20;fontStyle=1;" vertex="1" parent="p1">
+                    <mxGeometry x="660" y="395" width="280" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="gui" value="&lt;b&gt;GUI and events&lt;/b&gt;&lt;br&gt;Tkinter event loop reacts to clicks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=17;" vertex="1" parent="p1">
+                    <mxGeometry x="90" y="160" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="gui1" value="Add card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EFF7;strokeColor=#B1A0C7;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="35" y="285" width="150" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="gui2" value="Reveal answer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EFF7;strokeColor=#B1A0C7;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="195" y="285" width="150" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="gui3" value="Rate recall" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EFF7;strokeColor=#B1A0C7;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="355" y="285" width="150" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow" value="&lt;b&gt;Data flow&lt;/b&gt;&lt;br&gt;input → calculation → stored result" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5D6;strokeColor=#ED7D31;fontSize=17;" vertex="1" parent="p1">
+                    <mxGeometry x="645" y="150" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow1" value="Quality 1, 3, 4 or 5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4EC;strokeColor=#F4B183;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="520" y="275" width="190" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow2" value="New interval and ease" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4EC;strokeColor=#F4B183;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="720" y="275" width="190" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow3" value="Updated due date" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4EC;strokeColor=#F4B183;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="920" y="275" width="170" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="persistence" value="&lt;b&gt;Persistent state&lt;/b&gt;&lt;br&gt;SQLite survives application restarts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontSize=17;" vertex="1" parent="p1">
+                    <mxGeometry x="1200" y="160" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="persist1" value="cards table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F9ED;strokeColor=#A9D18E;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="1190" y="285" width="150" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="persist2" value="reviews table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F9ED;strokeColor=#A9D18E;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="1360" y="285" width="150" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="separation" value="&lt;b&gt;Separation of concerns&lt;/b&gt;&lt;br&gt;Each module has one main responsibility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=17;" vertex="1" parent="p1">
+                    <mxGeometry x="85" y="675" width="320" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="sep1" value="recall_app.py&lt;br&gt;interaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF5FB;strokeColor=#9DC3E6;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="25" y="805" width="150" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="sep2" value="database.py&lt;br&gt;persistence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF5FB;strokeColor=#9DC3E6;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="180" y="805" width="150" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="sep3" value="scheduler.py&lt;br&gt;calculation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF5FB;strokeColor=#9DC3E6;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="335" y="805" width="150" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="testing" value="&lt;b&gt;Testing and debugging&lt;/b&gt;&lt;br&gt;Expected behaviour becomes executable evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#BF9000;fontSize=17;" vertex="1" parent="p1">
+                    <mxGeometry x="645" y="745" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="test1" value="Pure scheduler tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#D6B656;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="530" y="870" width="190" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="test2" value="Temporary database tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#D6B656;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="730" y="870" width="190" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="test3" value="Manual interface checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#D6B656;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="930" y="870" width="190" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="reflection" value="&lt;b&gt;Critical reflection&lt;/b&gt;&lt;br&gt;Building exposes assumptions and trade-offs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C2185B;fontSize=17;" vertex="1" parent="p1">
+                    <mxGeometry x="1200" y="675" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="reflect1" value="Simple scope makes the core logic explainable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFF4;strokeColor=#E6A1BA;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="1110" y="805" width="210" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="reflect2" value="Limitations identify future learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEFF4;strokeColor=#E6A1BA;fontSize=14;" vertex="1" parent="p1">
+                    <mxGeometry x="1340" y="805" width="210" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe1" value="presents" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;fontSize=13;" edge="1" parent="p1" source="gui" target="pcentre">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe2" value="transforms" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#ED7D31;fontSize=13;" edge="1" parent="p1" source="flow" target="pcentre">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe3" value="stores" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#70AD47;fontSize=13;" edge="1" parent="p1" source="pcentre" target="persistence">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe4" value="is organised by" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#5B9BD5;fontSize=13;" edge="1" parent="p1" source="pcentre" target="separation">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe5" value="is verified by" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#BF9000;fontSize=13;" edge="1" parent="p1" source="pcentre" target="testing">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe6" value="produces evidence for" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#C2185B;fontSize=13;" edge="1" parent="p1" source="pcentre" target="reflection">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe7" value="triggers" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;fontSize=13;" edge="1" parent="p1" source="gui3" target="flow1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe8" value="calculates" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#ED7D31;fontSize=13;" edge="1" parent="p1" source="flow1" target="flow2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe9" value="sets" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#ED7D31;fontSize=13;" edge="1" parent="p1" source="flow2" target="flow3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe10" value="writes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#70AD47;fontSize=13;" edge="1" parent="p1" source="flow3" target="persistence">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;" edge="1" parent="p1" source="gui" target="gui1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;" edge="1" parent="p1" source="gui" target="gui2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#8064A2;" edge="1" parent="p1" source="gui" target="gui3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#70AD47;" edge="1" parent="p1" source="persistence" target="persist1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#70AD47;" edge="1" parent="p1" source="persistence" target="persist2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#5B9BD5;" edge="1" parent="p1" source="separation" target="sep1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#5B9BD5;" edge="1" parent="p1" source="separation" target="sep2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#5B9BD5;" edge="1" parent="p1" source="separation" target="sep3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#BF9000;" edge="1" parent="p1" source="testing" target="test1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#BF9000;" edge="1" parent="p1" source="testing" target="test2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#BF9000;" edge="1" parent="p1" source="testing" target="test3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#C2185B;" edge="1" parent="p1" source="reflection" target="reflect1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pe23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#C2185B;" edge="1" parent="p1" source="reflection" target="reflect2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
